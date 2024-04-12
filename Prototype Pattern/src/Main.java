@@ -1,16 +1,15 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        //create prototype
+        //create a prototype
         IScorpioPrototype prototype = new Scorpio();
 
-        //create scorpioN
+        //create a Scorpio N
         IScorpioPrototype scorpioN = prototype.clone();
         scorpioN.setEngine(new ScorpioNEngine());
 
-        //create classic
+        ///create a Scorpio Classsic
         IScorpioPrototype scorpioClassic = prototype.clone();
-        scorpioClassic.setEngine(new scorpioClassicEngine());
+        scorpioClassic.setEngine(new ScorpioClassicEngine());
+
     }
 }

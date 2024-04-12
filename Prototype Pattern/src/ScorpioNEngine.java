@@ -1,2 +1,2 @@
-public class ScorpioNEngine extends ScorpioEngine {
+public class ScorpioNEngine extends ScorpioEngine{
 }

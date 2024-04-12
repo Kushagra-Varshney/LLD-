@@ -4,4 +4,5 @@ public interface IScorpioPrototype {
     public void setEngine(ScorpioEngine scorpioEngine);
 
     public void start();
+
 }
